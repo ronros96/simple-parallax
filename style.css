@@ -442,18 +442,19 @@ section.section-1 span:after{
 	}
 }
 
+
 section.section-1 .container div:nth-child(1),
 section.section-1 .container div:nth-child(2),
 section.section-1 .container div:nth-child(3){
 	position: relative;
 	overflow: hidden;
 	margin-top: 4rem;
-	height: 8rem;
+	height: 5rem;
 }
 
 section.section-1 .container div:nth-child(2){
 	margin-top: 1rem;
-	height: 4rem;
+	height: 8rem;
 }
 
 section.section-1 .container div:nth-child(3){
@@ -744,6 +745,10 @@ footer li img{
 
 .mobile{
 	display: none;
+}
+
+.disclaim{
+	color: #1B6D41;
 }
 
 @media(max-width:1200px){
