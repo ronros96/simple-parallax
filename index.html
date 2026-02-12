@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Aaron Rosales - Slice Exam</title>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+		<!-- all animation transition are in amin.css -->
+		<link rel="stylesheet" href="anim.css"/>
+		<!-- all styling and layout are in style.css -->
+		<link rel="stylesheet" href="style.css"/>
+		
+	</head>
+	<body data-anim-stage="0">
+		<header>
+			<div>
+				<div class="logo">
+					<img src="images/logo.svg"/>
+					<h1>Company Name</h1>
+				</div>
+				<!-- I only use IDs as an anchor for the navigation -->
+				<div class="hamburger" data-trigger="closed">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<nav class="anchors">
+					<ul>
+						<li><a href="#section1" class="active">Section 1</a></li>
+						<li><a href="#section2">Section 2</a></li>
+						<li><a href="#section3">Section 3</a></li>
+						<li><a href="#section4">Section 4</a></li>
+						<li><a href="#section5">Section 5</a></li>
+						<li><button type="button">Register</button></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="main">
+			<section id="section1" class="section-1" data-anim-stat="init">
+				<span>Scroll to start</span>
+				<div class="container">
+					<div>
+						<h2>Sed ut persvpiciatis unde omnis iste natus </h2>
+					</div>
+					<div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div>
+						<button class="cta" type="button">Lorem ipsum dolot</button>
+					</div>
+				</div>
+			</section>
+
+			<section id="section2" class="section-2" data-anim-stat="init">
+				<div class="container">
+					<div class="mid-content">
+						<div>
+							<h3>Sed ut perspiciatis unde</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<button class="cta arrow" type="button"></button>
+						<div class="slider-container">
+							<div class="slider-content">
+								<div>
+									<div>
+										<img src="images/slider-1.png"/>
+									</div>
+									<p>Lorem Ipsum</p>
+								</div>
+								<div>
+									<div>
+										<img src="images/slider-2.png"/>
+									</div>
+									<p>Dolor sit amet</p>
+								</div>
+								<div>
+									<div>
+										<img src="images/slider-3.png"/>
+									</div>
+									<p>Consectetur adipiscing elit</p>
+								</div>
+								<div>
+									<div>
+										<img src="images/slider-4.png"/>
+									</div>
+									<p>Sed do eiusmod tempor incididunt</p>
+								</div>
+								<div>
+									<div>
+										<img src="images/slider-5.png"/>
+									</div>
+									<p>Consectetur adipiscing elit</p>
+								</div>
+								<div>
+									<div>
+										<img src="images/slider-1.png"/>
+									</div>
+									<p>Lorem Ipsum</p>
+								</div>
+								<div>
+									<div>
+										<img src="images/slider-2.png"/>
+									</div>
+									<p>Dolor sit amet</p>
+								</div>
+								<div>
+									<div>
+										<img src="images/slider-3.png"/>
+									</div>
+									<p>Consectetur adipiscing elit</p>
+								</div>
+								<div>
+									<div>
+										<img src="images/slider-4.png"/>
+									</div>
+									<p>Sed do eiusmod tempor incididunt</p>
+								</div>
+								<div>
+									<div>
+										<img src="images/slider-5.png"/>
+									</div>
+									<p>Consectetur adipiscing elit</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- added :after grtadient bg so that the white text can be readable -->
+			<section id="section3" class="section-3" data-anim-stat="init">
+				<div class="container">
+					<div class="mid-content">
+						<div>
+							<h2>Perspiciatis </h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<button class="cta white" type="button">Lorem ipsum dolot</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="section4" class="section-4" data-anim-stat="init">
+				<div class="container">
+					<div class="mid-content">
+						<div>
+							<div class="div-40">
+								<h3>Iusto odio dignissimos ducimus qui blanditiis</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<a href="#">Learn more about dignissimos</a>
+							</div>
+							<div class="div-60 right">
+								<img src="images/section-4a.jpg"/>
+							</div>
+						</div>
+						<div>
+							<div class="div-60 non-mobile">
+								<img src="images/section-4b.jpg"/>
+							</div>
+							<div  class="div-40">
+								<h3>Iusto odio dignissimos ducimus qui blanditiis</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<a href="#">Learn more about dignissimos</a>
+							</div>
+							<div class="mobile">
+								<img src="images/section-4b.jpg"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="section5" class="section-5" data-anim-stat="init">
+				<div class="container">
+					<div class="mid-content">
+						<div class="div-50 center">
+							<h4>de Finibus Bonorum et Malorum</h4>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium is iste natus error sit voluptatem </p>
+							<a  href="mailto:dummy@dummy.com" target="_blank"><strong>email:</strong> H.Rackham@domain.com</a>
+						</div>
+					</div>
+					<div class="mid-content">
+						<div  class="div-50 left">
+							<h4>Company Name</h4>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium ciatis unde omnis iste natus</p>
+						</div>
+						<footer>
+							<nav>
+								<ul>
+									<li><a href="#"><img src="images/facebook.svg"></a></li>
+									<li><a href="#"><img src="images/twitter.svg"></a></li>
+									<li><a href="#"><img src="images/ig.svg"></a></li>
+								</ul>
+							</nav>
+							<nav>
+								<ul>
+									<li><a href="#section1">Section 1</a></li>
+									<li><a href="#section2">Section 2</a></li>
+									<li><a href="#section3">Section 3</a></li>
+									<li><a href="#section4">Section 4</a></li>
+									<li><a href="#section5">Section 5</a></li>
+								</ul>
+							</nav>
+						</footer>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- all custom js are in script.js -->
+		<script src="js/script.js"></script>
+	</body>
+</html>
