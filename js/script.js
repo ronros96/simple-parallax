@@ -140,3 +140,10 @@ function checkBoundary(){
 		innerSlider.style.left = `-${inner.width - outer.width}px`;
 	}
 }
+
+let contact = document.querySelector('.contact-me');
+if(contact){
+	contact.addEventListener('click',()=>{
+		window.open('https://ronros96.github.io/');
+	})
+}
