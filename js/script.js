@@ -62,7 +62,6 @@ window.addEventListener("wheel", function(e){
 
 function setIndicator(i){
 	var x = i-1;
-	console.log(x+":"+i);
 	anchors.forEach(function(section, i) {
 		if(i === x){
 			window.history.replaceState({}, '','#'+section.id);
