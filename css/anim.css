@@ -62,23 +62,31 @@
 	/*move anchor indicator*/
 	[data-anim-stage='1'] header nav:before{
 		/*right: 1.1rem;*/
-		right: 37.6rem;
+		/* right: calc((5rem * 9) - 3rem)  */
+		right: calc((8rem * 4) + 140px + 1.4rem);
 	}
 
 	[data-anim-stage='2'] header nav:before{
-		right: 30.3rem;
+		right: calc((8rem * 3) + 140px + 1.4rem);
 	}
 
-	[data-anim-stage='3'] header nav:before{
-		right: 23.15rem;
-	}
+	[data-anim-stage='3']{	
+		header nav:before{
+			right: calc((8rem * 2) + 140px + 1.4rem);
+			background-color: #fff;
+		}
+		header nav a{
+			color: #fff
+		}
+	} 
 
 	[data-anim-stage='4'] header nav:before{
-		right: 15.8rem;
+		right: calc(8rem + 140px + 1.4rem);
 	}
 
 	[data-anim-stage='5'] header nav:before{
-		right: 8.5rem;
+		/* right: 8.5rem; */
+		right: calc(140px + 1.4rem);
 	}
 
 
@@ -107,8 +115,7 @@
 	section.section-1[data-anim-stat="init"] span{
 		transition-delay: .5s;
 	}
-
-
+	
 	section.section-1[data-anim-stat="init"]:before,
 	section.section-1[data-anim-stat="passed"]:before{
 		transform: scale3d(1.8,1.8,1.8);

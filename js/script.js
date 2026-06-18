@@ -60,6 +60,7 @@ window.addEventListener("wheel", function(e){
 	}
 });
 
+//nav indicator
 function setIndicator(i){
 	var x = i-1;
 	anchors.forEach(function(section, i) {
@@ -75,7 +76,6 @@ function setIndicator(i){
 		}
 	});
 	document.querySelector("body").setAttribute("data-anim-stage",i) 
-
 	anim = setTimeout(function(){
 		animate = true;
 		animationDone();
@@ -86,7 +86,7 @@ function animationDone(){
 	clearTimeout(anim);
 }
 
-// imager slider
+// image slider
 var slider = document.querySelector(".slider-container");
 var innerSlider = document.querySelector(".slider-content");
 var pressed = false;

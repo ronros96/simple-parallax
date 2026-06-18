@@ -19,7 +19,7 @@ body :is(h1,h2,h3,h4){
 	margin-top: 0;
 	margin-left: 0;
 	margin-right: 0;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 
 	font-weight: 900;
 	color: #48334F;
@@ -131,7 +131,7 @@ button.cta.arrow:after{
 	width: 100%;
 	height: 100%;
 
-	background-image: url(images/arrow-right.svg);
+	background-image: url(../images/arrow-right.svg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 1.5rem;
@@ -139,7 +139,7 @@ button.cta.arrow:after{
 
 button.cta.arrow:after{
 	left: -100%;
-	background-image: url(images/arrow-right-white.svg);
+	background-image: url(../images/arrow-right-white.svg);
 }
 
 button.cta.arrow:hover{
@@ -166,10 +166,7 @@ header{
 	width: 100%;
 	height: 5.625rem;
 
-	background-color: #fff;
-
 	z-index: 999;
-	
 }
 
 header .hamburger{
@@ -259,10 +256,9 @@ header nav:before{
 
 	top: 3.5rem;
 	width: 5rem;
-	height: .25rem;
+	height: .1rem;
 
-	background-image: url(images/nav-dash.svg);
-	background-repeat: repeat-x;
+	background-color: #48334F;
 	opacity: 1;
 }
 
@@ -288,8 +284,9 @@ header li a{
 	position: relative;
 	display: block;
 	padding: .75rem 1.5rem;
-	/*margin: 0;*/
-	
+	width: 5rem;
+	text-align: center;
+
 	font-size: 1rem;
 	font-weight: 700;
 	color: #888;
@@ -389,7 +386,6 @@ section .mid-content{
 }
 
 /*styles per section*/
-
 /*section 1*/
 section.section-1{
 	overflow: hidden;
@@ -403,7 +399,7 @@ section.section-1:after{
 	width: 110%;
 	height: 110%;
 
-	background-image: url(images/section-1-bg1.jpg);
+	background-image: url(../images/section-1-bg1.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -417,7 +413,7 @@ section.section-1:after{
 	height: 37rem;
 	width: 37rem;
 
-	background-image: url(images/man.png);
+	background-image: url(../images/man.png);
 	background-repeat: no-repeat;
 	background-position: bottom;
 	background-size: 200%;
@@ -428,7 +424,7 @@ section.section-1:after{
 section.section-1 span{
 	position: relative;
 	display: block;
-	top: 20rem;
+	top: 15rem;
 	width: 100%;
 	
 	font-size: 1.25rem;
@@ -448,7 +444,7 @@ section.section-1 span:before{
 	width: 3rem;
 	height: 3rem;
 
-	background-image: url(images/mouse.svg);
+	background-image: url(../images/mouse.svg);
 }
 
 section.section-1 span:after{
@@ -460,7 +456,7 @@ section.section-1 span:after{
 	width: 3rem;
 	height: 3rem;
 
-	background-image: url(images/m-mouse.svg);
+	background-image: url(../images/m-mouse.svg);
 
 	animation: scroll .8s ease-in infinite;
 }
@@ -489,11 +485,11 @@ section.section-1 .container div:nth-child(3){
 
 section.section-1 .container div:nth-child(2){
 	margin-top: 1rem;
-	height: 4rem;
+	height: 2rem;
 }
 
 section.section-1 .container div:nth-child(3){
-	margin-top: 2rem;
+	margin-top: 1rem;
 	height: 5rem;
 }
 
@@ -525,7 +521,7 @@ section.section-2 .slider-container{
 	display: block;
 	margin-top: 1rem;
 	width: 100%;
-	height: 23rem;
+	height: 28rem;
 
 	cursor: grabbing;
 }
@@ -545,12 +541,11 @@ section.section-2 .slider-content>div{
 	margin-right: 1.5rem;
 
 	font-size: 2rem;
-	background-color: #aaa;
 }
 
 section.section-2 .slider-content>div div{
 	overflow: hidden;
-	height: 100%;
+	height: 23rem;
 }
 
 section.section-2 .slider-content img{
@@ -577,7 +572,7 @@ section.section-3:after{
 	width: 100%;
 	height: 100%;
 
-	background-image: url(images/section-2-bg.jpg);
+	background-image: url(../images/section-2-bg.jpg);
 	background-repeat: no-repeat;
 	background-position: 0 50%;
 	background-size: cover;
@@ -661,8 +656,9 @@ section.section-4 .mid-content{
 section.section-4 .mid-content>div{
 	display: flex;
 	justify-content: space-between;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	height: calc(50% - 3rem);
 	max-height: 21rem;
 }
 
